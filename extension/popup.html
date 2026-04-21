@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>WhatsApp Chat Summarizer</title>
+  <style>
+    body { width: 200px; padding: 10px; font-family: Arial, sans-serif; }
+    button { width: 100%; padding: 8px; background: #25d366; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #128c7e; }
+  </style>
+</head>
+<body>
+  <h3>WhatsApp Chat Summarizer</h3>
+  <p>Click the extension icon when on WhatsApp Web to use the summarizer panel.</p>
+  <button onclick="chrome.tabs.create({url: 'https://web.whatsapp.com'})">Open WhatsApp Web</button>
+</body>
+</html>
